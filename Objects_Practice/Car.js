@@ -5,7 +5,7 @@ class Car {
         this.year = year;
     }
 
-    displayInfo() {
+    displayInfo(){
         console.log(`${this.year} ${this.make} ${this.model}`)
     }
 }

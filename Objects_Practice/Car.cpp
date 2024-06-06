@@ -5,7 +5,7 @@ class Car {
         std::string make;
         std::string model;
         int year;
-    
+
     public:
         Car(std::string make, std::string model, int year) {
             this->make = make;
@@ -13,13 +13,14 @@ class Car {
             this->year = year;
         }
 
-    void displayInfo() {
-        std::cout << year << " " << make << " " << model << std::endl;
-    }
+        void displayInfo() {
+            int userInput;
+            std::cout << year << " " << make << " " << model << std::endl;
+        }
 };
 
 int main() {
-    Car car1("Toyota", "Prius", 2007);
+    Car car1("asdfsadf", "rueiwqor", 123241);
     car1.displayInfo();
 
     return 0;

@@ -16,7 +16,7 @@ public class Car {
     }
 
     public static void main(String[] args) {
-        Car car1 = new Car("Toyota", "Prius", 2007);
+        Car car1 = new Car("Hyundai", "Elantra", 2013);
         car1.displayInfo();
     }
 }
